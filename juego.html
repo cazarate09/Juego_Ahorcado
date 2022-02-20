@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+	<div style="text-align:center; margin: 0px 0px;">
+		<table align="center" cellspacing="25">
+			<tr>
+				<td rowspan=3>
+					<input type="button" value="Reiniciar"  class="btn" id="Reiniciar" onclick="location.reload()">	
+				</td>
+				<td rowspan=3>
+					<a type="button" href="index.html" class="btn" id="Volver">Volver</a>
+						
+				</td>
+			</tr>
+		</table>
+		
+	</div>
+	
+	<div class="padre">
+		<div class="hijo">
+			<canvas id="ahorcado" height="440px" width="1000px"></canvas>
+		</div>
+	</div>
+	
+	<div class="padre" style="text-align: center">
+		<div class="hijo" style="text-align: center">
+			<p> Desarrollado por Carlos Zárate</p>
+		</div>
+	</div>	
+    
+    <script  src="canvas.js"></script>
+    <script  src="ahorcado.js"></script>
+  </body>
+</html>

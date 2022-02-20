@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Ahorcado</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <main>
+	<div style="text-align:center; margin: 10px 10px;">
+      <h1 class="titulo">Ahorcado</h1>
+      <a type="button" href="juego.html" class="btn" id="iniciar-juego"> INICIAR JUEGO</a>
+    </div>
+    <div style="text-align:center">
+	<div style="text-align:center; margin: 10px 0px;">
+      
+    </div>
+	<div style="text-align:center; margin: 10px 0px;">
+      
+    </div>
+	<div class="div" >
+      <input class="text-input" type="text" id="input-nueva-palabra" placeholder="Escriba una nueva palabra" onkeypress="return (event.charCode > 64 && event.charCode < 91)" autocomplete="off">
+      <button class="btn" id="nueva-palabra"  >AGREGAR PALABRA</button> 
+    </div>
+	
+	<div class="padre" style="text-align: center">
+		<div class="hijo" style="text-align: center">
+			<p> Desarrollado por Carlos Zárate</p>
+		</div>
+	</div>	
+    
+	</main>
+    <script type="text/javascript" src="canvas.js"></script>
+    <script type="text/javascript" src="ahorcado.js"></script>
+  </body>
+</html>
